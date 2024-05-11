@@ -13,13 +13,18 @@ nav {
 
 .caixas {
     margin: 0;
-        
+    border: none;
+    background-color: #ADA895;
+    padding-left: 10px;
 }
 
-.icones {
+.icones_ns {
+    background-color: #45403A;
     display: flex;
+    margin: 10;
     justify-content: center;
     align-items: center;
+
 }
 
 .cabecalho {

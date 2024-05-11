@@ -11,27 +11,39 @@ nav {
     background-color: red;
 }
 
-.caixas {
+.caixas_ns {
     margin: 0;
     border: none;
     background-color: #ADA895;
     padding-left: 10px;
+    width: 161px;
+    height: 37px;
 }
 
-.icones_ns {
+.icons_back {
+    background-color: #45403A;
+    position:relative;
+    width: 10;
+    top: 2px;
+    right: 6px;
+    padding: 3px 0px 1px 0px;
+    }
+
+.cabecalho {
     background-color: #45403A;
     display: flex;
     margin: 10;
     justify-content: center;
     align-items: center;
-
+    gap: 39px;
 }
 
-.cabecalho {
+.logo {
     position: absolute;
     display: flex;
     justify-content: left; 
     align-items: center; 
+    left: 100px;
 }
 
 .central {
@@ -42,6 +54,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-h4 {
+h3 {
     font-family: 'Rodin';
+    letter-spacing: 2px;
 }

@@ -1,19 +1,21 @@
+@font-face {
+    font-family: 'Rodin';
+    src: url('../fonts/FOTRodin\ Pro\ L.otf');
+}
+
 body {
     background-color: #c9c3ae;
 }
 
-.container {
-    position: relative;
-    
-}
 img {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 800px;
+    height: 200px;
     transform: translate(-50%, -50%);
 }
 
 h4 {
-    font-family: Rodin;
+    font-family: 'Rodin';
+    
 }

@@ -7,10 +7,6 @@ body {
     background-color: #c9c3ae;
 }
 
-nav {
-    background-color: red;
-}
-
 .caixas_ns {
     margin: 0;
     border: none;
@@ -30,7 +26,6 @@ nav {
     }
 
 .cabecalho {
-    background-color: #45403A;
     display: flex;
     margin: 10;
     justify-content: center;

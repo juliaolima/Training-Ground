@@ -7,11 +7,23 @@ body {
     background-color: #c9c3ae;
 }
 
-header {
+nav {
     background-color: red;
 }
 
+.caixas {
+    margin: 0;
+        
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cabecalho {
+    position: absolute;
     display: flex;
     justify-content: left; 
     align-items: center; 

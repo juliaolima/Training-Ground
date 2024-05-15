@@ -4,38 +4,48 @@
 }
 
 body {
+    margin: 0%;
     background-color: #c9c3ae;
 }
 
-.caixas_ns {
-    margin: 0;
-    border: none;
-    background-color: #ADA895;
-    padding-left: 10px;
-    width: 161px;
-    height: 37px;
+header {
+    padding: 0.2%;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-color:#c9c3ae;
+    position: fixed;
 }
 
-.icons_back {
+.back_icons{
     background-color: #45403A;
-    position:relative;
-    width: 10;
-    top: 2px;
-    right: 6px;
-    padding: 3px 0px 1px 0px;
-    }
+    
+}
 
-.cabecalho {
-    display: flex;
-    margin: 10;
-    justify-content: center;
-    align-items: center;
-    gap: 39px;
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 3%;
+    font-size: 120%;
+    
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Rodin';
+    color:black;
+    letter-spacing: 2px;
+    background-color: #AFAA95;
+    padding: 0.5% 1%;
 }
 
 .logo {
     position: absolute;
-    display: flex;
+    display: fex;
     justify-content: left; 
     align-items: center; 
     left: 100px;
@@ -47,9 +57,4 @@ body {
     left: 50%;
     height: 200px;
     transform: translate(-50%, -50%);
-}
-
-h3 {
-    font-family: 'Rodin';
-    letter-spacing: 2px;
 }
